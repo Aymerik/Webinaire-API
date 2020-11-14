@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
   <title>Todolist</title>
-
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 
 <body>
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
@@ -47,7 +38,15 @@
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
-        <ul id="list" class="list-group w-50 m-auto"></ul>
+        <ul id="list" class="list-group w-50 m-auto">
+          <!-- ajouter les éléments de la todolist ici, via Javascript. Format d'un itam de la liste : 
+          <li>
+            <input type="checkbox" id="task-1" />
+            <label for="task-1">Nom de la tâche</label>
+            <em class="text-muted small">(deadline : XX/XX/XXXX)</em>
+            <a href="#" class="float-right text-decoration-none">Suppr.</a>
+           </li> -->
+        </ul>
       </div>
     </div>
   </div>
@@ -57,5 +56,4 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
-
 </html>
